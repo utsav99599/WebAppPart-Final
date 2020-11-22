@@ -1,3 +1,5 @@
+from boto.pyami.installers.ubuntu.mysql import MySQL
+from flask import render_template, Flask
 from pymysql.cursors import DictCursor
 
 app = Flask(__name__)
